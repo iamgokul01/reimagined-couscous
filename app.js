@@ -27,6 +27,7 @@ const startServer = async () => {
 
 startServer();
 
+//MiddleWare
 const validateData = (request, response, next) => {
   try {
     let {
