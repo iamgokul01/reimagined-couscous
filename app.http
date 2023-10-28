@@ -1,0 +1,25 @@
+
+
+GET http://localhost:3001/prnt?date=2021-1-15
+
+###
+
+GET http://localhost:3001/todos?status=TO%20DO
+
+###
+
+GET http://localhost:3001/validate
+
+
+###
+Content-Type: application/json
+
+
+{
+        "id": 2,
+        "todo": "Buy a Car",
+        "priority": "MEDIUM",
+        "status": "TO DO",
+        "category": "HOME",
+        "dueDate": "2021-09-22"
+}
